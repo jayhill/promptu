@@ -1,25 +1,22 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.ComponentModel;
+using System.Globalization;
+using System.IO;
+using System.Reflection;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Windows.Forms;
-using System.Configuration;
-using ZachJohnson.Promptu.UserModel;
 using ZachJohnson.Promptu.Collections;
+using ZachJohnson.Promptu.PluginModel;
+using ZachJohnson.Promptu.PluginModel.Internals;
 using ZachJohnson.Promptu.Skins;
-using ZachJohnson.Promptu.AssemblyCaching;
-using System.Runtime.InteropServices;
-using System.IO;
-using ZachJohnson.Promptu.UserModel.Collections;
-using System.Reflection;
+using ZachJohnson.Promptu.SkinApi;
 using ZachJohnson.Promptu.UIModel;
 using ZachJohnson.Promptu.UIModel.Configuration;
-using ZachJohnson.Promptu.SkinApi;
-using ZachJohnson.Promptu.PluginModel;
-using System.ComponentModel;
-using ZachJohnson.Promptu.UIModel.Presenters;
 using ZachJohnson.Promptu.UIModel.Interfaces;
-using ZachJohnson.Promptu.PluginModel.Internals;
-using System.Globalization;
+using ZachJohnson.Promptu.UIModel.Presenters;
+using ZachJohnson.Promptu.UserModel;
+using ZachJohnson.Promptu.UserModel.Collections;
 
 namespace ZachJohnson.Promptu
 {
