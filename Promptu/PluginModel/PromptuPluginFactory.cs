@@ -83,13 +83,13 @@ namespace ZachJohnson.Promptu.PluginModel
             List<WeakReference<UIMenuItem>> itemsToRemove = new List<WeakReference<UIMenuItem>>();
             foreach (WeakReference<UIMenuItem> item in this.ownedMenuItems)
             {
-                UIMenuItem realItem = item.Target;
-                if (realItem == null)
+                if (item.TryGetTarget(out UIMenuItem realItem))
+                {
+                    realItem.OverrideAsUnavailable = value;
+                } else
                 {
                     itemsToRemove.Add(item);
                 }
-
-                realItem.OverrideAsUnavailable = value;
             }
 
             foreach (var item in itemsToRemove)

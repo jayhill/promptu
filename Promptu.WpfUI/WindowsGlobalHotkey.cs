@@ -213,8 +213,7 @@ namespace ZachJohnson.Promptu.WpfUI
                 switch (m.Msg)
                 {
                     case (int)WindowsMessages.WM_HOTKEY:
-                        WindowsGlobalHotkey hotkeyReference = this.hotKey.Target;
-                        if (hotkeyReference != null)
+                        if (this.hotKey.TryGetTarget(out WindowsGlobalHotkey hotkeyReference))
                         {
                             NativeMethods.CloseStartMenuIfOpen();
                             hotkeyReference.OnPressed(EventArgs.Empty);
