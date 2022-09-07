@@ -32,7 +32,6 @@ namespace ZachJohnson.Promptu
 #else
         private static readonly ReleaseType currentReleaseType = ReleaseType.Release;
 #endif
-        private static AssemblyCache assemblyCache;
         private static GuiManager guiManager;
         private static object exceptionPathToken = "path";
         private static SyncSynchronizer syncSynchronizer = new SyncSynchronizer();
@@ -378,23 +377,6 @@ namespace ZachJohnson.Promptu
                     break;
             }
 
-            foreach (CachedAssembly cachedAssembly in AssemblyCache)
-            {
-                AssemblyName name = AssemblyName.GetAssemblyName(cachedAssembly.File);
-                if (name.ToString() == e.Name)
-                {
-                    LoadedAssembly loadedAssembly = LoadedAssemblies.TryGet(cachedAssembly.File.Name);
-                    if (loadedAssembly != null)
-                    {
-                        return loadedAssembly.Assembly;
-                    }
-                    else
-                    {
-                        return AssemblyReference.LoadAssembly(cachedAssembly.File);
-                    }
-                }
-            }
-
             return null;
         }
 
@@ -549,12 +531,6 @@ namespace ZachJohnson.Promptu
         //        }
         //    }
         //}
-
-        internal static AssemblyCache AssemblyCache
-        {
-            get { return assemblyCache; }
-            set { assemblyCache = value; }
-        }
 
         internal static GuiManager GuiManager
         {
