@@ -16,23 +16,17 @@ namespace ZachJohnson.Promptu.WpfUI
 {
     using System;
     using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using ZachJohnson.Promptu.UIModel;
-    using ZachJohnson.Promptu.WpfUI.Configuration;
-    using ZachJohnson.Promptu.WpfUI;
     using System.Drawing;
-    using System.Windows;
-    using System.Windows.Interop;
-    using System.Windows.Input;
+    using System.Linq;
     using System.Runtime.InteropServices;
-    using ZachJohnson.Promptu.SkinApi;
-    using ZachJohnson.Promptu.Skins;
+    using System.Windows;
+    using System.Windows.Input;
+    using System.Windows.Interop;
     using System.Windows.Media.Imaging;
-    using System.Windows.Media;
-    using System.IO;
     using Microsoft.Win32;
-    using System.Speech.Recognition;
+    using Configuration;
+    using SkinApi;
+    using UIModel;
 
     internal delegate IntPtr HandleGetter(Window window);
  

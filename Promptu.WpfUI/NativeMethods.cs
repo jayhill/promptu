@@ -15,11 +15,9 @@
 namespace ZachJohnson.Promptu.WpfUI
 {
     using System;
-    using System.Collections.Generic;
-    using System.Linq;
+    using System.Drawing;
     using System.Runtime.InteropServices;
     using System.Text;
-    using System.Drawing;
     using System.Windows.Interop;
     using System.Windows.Media;
 

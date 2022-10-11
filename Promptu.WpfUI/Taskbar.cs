@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Drawing;
-using System.Runtime.InteropServices;
 using System.Drawing.Extensions;
+using System.Runtime.InteropServices;
 
 namespace ZachJohnson.Promptu.WpfUI
 {

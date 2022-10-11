@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using ZachJohnson.Promptu.SkinApi;
-using System.Windows.Forms;
-using ZachJohnson.Promptu.UserModel;
+﻿using ZachJohnson.Promptu.SkinApi;
 
 namespace ZachJohnson.Promptu.Skins
 {

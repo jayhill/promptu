@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using ZachJohnson.Promptu.UIModel.Interfaces;
 using System.Windows.Forms;
 using System.Xml;
+using ZachJohnson.Promptu.UIModel.Interfaces;
 
 namespace ZachJohnson.Promptu
 {

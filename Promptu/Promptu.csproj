@@ -225,8 +225,6 @@
     <Compile Include="Skins\MessageBoxProvider.cs" />
     <Compile Include="Skins\MockSuggester.cs" />
     <Compile Include="Skins\SkinCollection.cs" />
-    <Compile Include="Skins\Skin.cs" />
-    <Compile Include="Skins\ToolTipSettings.cs" />
     <Compile Include="UIModel\BindingCollection.cs" />
     <Compile Include="UIModel\ButtonColumn.cs" />
     <Compile Include="UIModel\CellAddress.cs" />
@@ -252,14 +250,11 @@
     <Compile Include="UIModel\IUIComponentCollection.cs" />
     <Compile Include="UIModel\ListDragDropEventArgs.cs" />
     <Compile Include="UIModel\OverwriteOptionExtraInfo.cs" />
-    <Compile Include="UIModel\PassthroughUIComponentCollection.cs" />
     <Compile Include="UIModel\Presenters\PluginUpdateDialogPresenter.cs" />
     <Compile Include="UIModel\Presenters\UpdateAvailableDialogPresenter.cs" />
     <Compile Include="UIModel\SetupDialogManager.cs" />
-    <Compile Include="UIModel\SimpleColumnHeader.cs" />
     <Compile Include="UIModel\ToolkitClipboard.cs" />
     <Compile Include="UIModel\HotkeyEvaluationContext.cs" />
-    <Compile Include="UIModel\Interfaces\ICustomProxySettingsPanel.cs" />
     <Compile Include="UIModel\Interfaces\IObjectPropertyCollectionEditor.cs" />
     <Compile Include="UIModel\Interfaces\IOptionButton.cs" />
     <Compile Include="UIModel\Interfaces\IOptionsTabPanel.cs" />
@@ -275,7 +270,6 @@
     <Compile Include="UIModel\ConflictObjectType.cs" />
     <Compile Include="UIModel\EntryImportance.cs" />
     <Compile Include="UIModel\EntryState.cs" />
-    <Compile Include="UIModel\FlowContainer.cs" />
     <Compile Include="UIModel\GlobalHotkey.cs" />
     <Compile Include="UIModel\GuiManager.cs" />
     <Compile Include="UIModel\HotkeyInUseResult.cs" />
@@ -297,7 +291,6 @@
     <Compile Include="UIModel\Interfaces\ICommandEditor.cs" />
     <Compile Include="UIModel\Interfaces\ICommandLink.cs" />
     <Compile Include="UIModel\Interfaces\IConfirmDialog.cs" />
-    <Compile Include="UIModel\Interfaces\IContainerControl.cs" />
     <Compile Include="UIModel\Interfaces\IContentHost.cs" />
     <Compile Include="UIModel\Interfaces\IDownloadProgressDialog.cs" />
     <Compile Include="UIModel\Interfaces\IDragSource.cs" />
@@ -327,7 +320,6 @@
     <Compile Include="UIModel\Interfaces\IProfileAdvanced.cs" />
     <Compile Include="UIModel\Interfaces\IProfileBasics.cs" />
     <Compile Include="UIModel\Interfaces\IProfileFinish.cs" />
-    <Compile Include="UIModel\Interfaces\IProxySettingsPanel.cs" />
     <Compile Include="UIModel\Interfaces\IStackWidget.cs" />
     <Compile Include="UIModel\Interfaces\IOpenFileDialog.cs" />
     <Compile Include="UIModel\Interfaces\IProfileTabPanel.cs" />
@@ -342,8 +334,6 @@
     <Compile Include="UIModel\Interfaces\ITextInput.cs" />
     <Compile Include="UIModel\Interfaces\IToolbarButton.cs" />
     <Compile Include="UIModel\Interfaces\IToolbarMenuItem.cs" />
-    <Compile Include="UIModel\Interfaces\IToolbarSeparator.cs" />
-    <Compile Include="UIModel\Interfaces\IToolTippedButton.cs" />
     <Compile Include="UIModel\Interfaces\IValueListEditor.cs" />
     <Compile Include="UIModel\Interfaces\IValueListSelectorWindow.cs" />
     <Compile Include="UIModel\Interfaces\ISplitToolbarButton.cs" />
@@ -393,7 +383,6 @@
     <Compile Include="UIModel\Presenters\ValueListSelectorWindowPresenter.cs" />
     <Compile Include="UIModel\Presenters\ValueListSetupPanelPresenter.cs" />
     <Compile Include="UIModel\NewProfileStep.cs" />
-    <Compile Include="UIModel\RadioListItem.cs" />
     <Compile Include="UIModel\RichText\LineBreak.cs" />
     <Compile Include="UIModel\RichText\RTGroup.cs" />
     <Compile Include="UIModel\RichText\KeyedImage.cs" />
@@ -411,7 +400,6 @@
     <Compile Include="UIModel\UIComponentCollection.cs" />
     <Compile Include="UIModel\UIContextMenu.cs" />
     <Compile Include="UIModel\UIDragDropEffects.cs" />
-    <Compile Include="UIModel\UIMenuItemCollectionBinding.cs" />
     <Compile Include="UIModel\UIMenuItemCollection.cs" />
     <Compile Include="UIModel\Presenters\HotkeyControlPresenter.cs" />
     <Compile Include="UIModel\Interfaces\IBatchUpdatable.cs" />
@@ -420,12 +408,10 @@
     <Compile Include="UIModel\Interfaces\IHotkeyControl.cs" />
     <Compile Include="UIModel\Interfaces\INewUserDialog.cs" />
     <Compile Include="UIModel\Interfaces\INotifyIcon.cs" />
-    <Compile Include="UIModel\Interfaces\INewProfileDialog.cs" />
     <Compile Include="UIModel\Interfaces\ISplashScreen.cs" />
     <Compile Include="UIModel\Interfaces\IUnhandledExceptionDialog.cs" />
     <Compile Include="UIModel\Presenters\NewUserDialogPresenter.cs" />
     <Compile Include="UIModel\Presenters\NotifyIconPresenter.cs" />
-    <Compile Include="UIModel\Presenters\NewProfileDialogPresenter.cs" />
     <Compile Include="UIModel\ToolkitFactory.cs" />
     <Compile Include="UIModel\ToolkitHost.cs" />
     <Compile Include="UIModel\UIDialogResult.cs" />
@@ -440,13 +426,16 @@
     <Compile Include="UIModel\UIMessageBoxOptions.cs" />
     <Compile Include="UIModel\UIMessageBoxResult.cs" />
     <Compile Include="UIModel\Presenters\UnhandledExceptionDialogPresenter.cs" />
-    <Compile Include="UIModel\UITabControl.cs" />
     <Compile Include="UIModel\UITabPage.cs" />
     <Compile Include="UIModel\UITabPageCollection.cs" />
     <Compile Include="UIModel\ClipboardCopyData.cs" />
     <Compile Include="UIModel\UITabPageInternal.cs" />
     <Compile Include="UIModel\UIWidget.cs" />
-    <Compile Include="UIModel\UpdateAvailableResult.cs" />
+    <Compile Include="UserModel\Defaults.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Defaults.resx</DependentUpon>
+    </Compile>
     <Compile Include="ValueValidationResult.cs" />
     <Compile Include="UIModel\WindowManager.cs" />
     <Compile Include="UI\InvalidValueException.cs" />
@@ -495,11 +484,9 @@
     <Compile Include="Skins\ParameterHelpContext.cs" />
     <Compile Include="Skins\SeparateSuggestionHandler.cs" />
     <Compile Include="Shortcut.cs" />
-    <Compile Include="Skins\IInstanceOnDemand.cs" />
     <Compile Include="Skins\SuggestionUtilities.cs" />
     <Compile Include="SuggestionMode.cs" />
     <Compile Include="ReleaseType.cs" />
-    <Compile Include="UI\SpecialImages.cs" />
     <Compile Include="Updater.cs" />
     <Compile Include="UserModel\Collections\FunctionParameterCollection.cs" />
     <Compile Include="UserModel\Collections\FunctionsCommandsCompositeMediator.cs" />
@@ -730,7 +717,9 @@
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="UserModel\Defaults.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <LastGenOutput>Defaults.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <Compile Include="Properties\Resources.Designer.cs">
@@ -753,9 +742,6 @@
     <Compile Include="SkinEventArgs.cs" />
     <Compile Include="SkinApi\KeyPressedEventArgs.cs" />
     <Compile Include="Skins\PromptHandler.cs" />
-    <Compile Include="Skins\Skin-Old.cs" />
-    <Compile Include="Skins\SkinFinder.cs" />
-    <Compile Include="Skins\PropertiesMiddleMan.cs" />
     <Compile Include="Collections\SortMode.cs" />
     <Compile Include="SystemEvents.cs" />
     <Compile Include="System\Runtime\CompilerServices\ExtensionAttribute.cs" />
@@ -767,11 +753,6 @@
     <Compile Include="UserModel\NoSyncLocationException.cs" />
     <Compile Include="UserModel\Profile.cs" />
     <Compile Include="UserModel\Collections\ProfilePlacemarkCollection.cs" />
-    <Compile Include="UserModel\Defaults.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Defaults.resx</DependentUpon>
-    </Compile>
     <Compile Include="UserModel\ReturnValue.cs" />
     <Compile Include="UserModel\SelfReferencingCommandException.cs" />
     <Compile Include="UserModel\SkinData.cs" />
@@ -833,11 +814,11 @@
     <None Include="Icons\Icon.png" />
     <None Include="bin\Debug\Profiles\Basic\0\AssemblyReferences.xml" />
     <None Include="bin\Debug\Profiles\Basic\0\AssemblyReferencesManifest.xml" />
-    <None Include="bin\Debug\Profiles\Basic\0\Commands.xml" />
     <None Include="bin\Debug\Profiles\Basic\0\Functions.xml" />
     <None Include="bin\Debug\Profiles\Basic\0\List.xml" />
     <None Include="bin\Debug\Profiles\Basic\Profile.xml" />
     <None Include="bin\Debug\Profiles\Basic\0\ValueLists.xml" />
+    <Content Include="bin\Debug\Profiles\Basic\0\Commands.xml" />
     <Content Include="Icon.ico" />
     <None Include="Icons\SplashScreen.png" />
     <None Include="Icons\AboutBox.png" />

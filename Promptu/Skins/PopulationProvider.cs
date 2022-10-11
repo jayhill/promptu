@@ -24,13 +24,13 @@ namespace ZachJohnson.Promptu.Skins
     using System.IO;
     using System.Text;
     using System.Threading;
-    using ZachJohnson.Promptu.Collections;
-    using ZachJohnson.Promptu.Itl;
-    using ZachJohnson.Promptu.Itl.AbstractSyntaxTree;
-    using ZachJohnson.Promptu.SkinApi;
-    using ZachJohnson.Promptu.UI;
-    using ZachJohnson.Promptu.UIModel.RichText;
-    using ZachJohnson.Promptu.UserModel;
+    using Collections;
+    using Itl;
+    using Itl.AbstractSyntaxTree;
+    using SkinApi;
+    using UI;
+    using UIModel.RichText;
+    using UserModel;
 
     internal class PopulationProvider
     {

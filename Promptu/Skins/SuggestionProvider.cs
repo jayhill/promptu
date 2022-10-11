@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
-using ZachJohnson.Promptu.Collections;
 using System.Extensions;
-using ZachJohnson.Promptu.UserModel;
-using System.IO;
-using ZachJohnson.Promptu.UserModel.Collections;
 using System.Globalization;
+using System.IO;
+using ZachJohnson.Promptu.Collections;
+using ZachJohnson.Promptu.UserModel;
+using ZachJohnson.Promptu.UserModel.Collections;
 
 namespace ZachJohnson.Promptu.Skins
 {

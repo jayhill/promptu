@@ -121,7 +121,6 @@
     <Compile Include="DefaultSkin\SkinInstance.cs" />
     <Compile Include="DefaultSkin\SkinInstanceFactory.cs" />
     <Compile Include="DefaultSkin\SuggestionItemWrapper.cs" />
-    <Compile Include="DefaultSkin\WpfConvertedImages.cs" />
     <Compile Include="Dummy\DummyLayoutManager.cs" />
     <Compile Include="Dummy\DummyListBox.cs" />
     <Compile Include="Dummy\DummyPrompt.cs" />
@@ -140,7 +139,6 @@
     <Compile Include="ImageSourceWithPadding.cs" />
     <Compile Include="IReportDragState.cs" />
     <Compile Include="MainThreadDispatcher.cs" />
-    <Compile Include="OopsTryThatAgainException.cs" />
     <Compile Include="PointFontSizeConverter.cs" />
     <Compile Include="StockIconIdentifier.cs" />
     <Compile Include="StockIconOptions.cs" />
@@ -452,13 +450,6 @@
     <None Include="Resources\PromptResources.design" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Promptu\Promptu.csproj">
-      <Project>{00A1FCF0-6ABB-499D-803A-A28E5BA45B2B}</Project>
-      <Name>Promptu</Name>
-      <Private>False</Private>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Page Include="ClassicSkin\ClassicPrompt.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -705,7 +696,12 @@
     <Resource Include="Images\AboutResources_Files\**\*.jpg;Images\AboutResources_Files\**\*.jpeg;Images\AboutResources_Files\**\*.png;Images\AboutResources_Files\**\*.bmp;Images\AboutResources_Files\**\*.gif;Images\AboutResources_Files\**\*.tif;Images\AboutResources_Files\**\*.tiff" />
     <Resource Include="SplashScreen.jpg" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Promptu\Promptu.csproj">
+      <Project>{00a1fcf0-6abb-499d-803a-a28e5ba45b2b}</Project>
+      <Name>Promptu</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

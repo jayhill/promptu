@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Extensions;
+using System.Globalization;
+using ZachJohnson.Promptu.Skins;
 using ZachJohnson.Promptu.UIModel.Interfaces;
 using ZachJohnson.Promptu.UserModel;
-using System.Windows.Forms;
-using System.Extensions;
-using ZachJohnson.Promptu.Skins;
-using System.Globalization;
 
 namespace ZachJohnson.Promptu.UIModel.Presenters
 {

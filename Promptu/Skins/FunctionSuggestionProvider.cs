@@ -15,8 +15,8 @@
 namespace ZachJohnson.Promptu.Skins
 {
     using System;
-    using ZachJohnson.Promptu.Collections;
-    using ZachJohnson.Promptu.UserModel;
+    using Collections;
+    using UserModel;
     using ZachJohnson.Promptu.UserModel.Collections;
 
     internal class FunctionSuggestionProvider

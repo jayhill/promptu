@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ZachJohnson.Promptu.UIModel
+﻿namespace ZachJohnson.Promptu.UIModel
 {
     // TODO test custom bindings at multi level
     internal class OverwriteOption

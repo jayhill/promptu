@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using ZachJohnson.Promptu.SkinApi;
 
 namespace ZachJohnson.Promptu.UIModel
 {

@@ -12,17 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+using ZachJohnson.Promptu.WpfUI.Collections;
+
 namespace ZachJohnson.Promptu.WpfUI
 {
     using System;
-    using System.Collections.Generic;
-    using System.Text;
-    using System.Drawing;
     using System.Diagnostics;
-    using System.Text.RegularExpressions;
-    using ZachJohnson.Promptu.WpfUI.Collections;
-    using System.Management;
+    using System.Drawing;
     using System.Globalization;
+    using System.Management;
 
     internal static class WindowLocator
     {

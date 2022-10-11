@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using ZachJohnson.Promptu.SkinApi;
-using System.Xml;
 
 namespace ZachJohnson.Promptu.Skins
 {

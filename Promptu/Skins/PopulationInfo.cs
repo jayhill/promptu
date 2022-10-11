@@ -15,7 +15,7 @@
 namespace ZachJohnson.Promptu.Skins
 {
     using System;
-    using ZachJohnson.Promptu.Collections;
+    using Collections;
 
     internal class PopulationInfo
     {

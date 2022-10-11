@@ -17,10 +17,10 @@ namespace ZachJohnson.Promptu.Skins
     using System;
     using System.Collections.Generic;
     using System.Globalization;
-    using ZachJohnson.Promptu.Collections;
-    using ZachJohnson.Promptu.SkinApi;
-    using ZachJohnson.Promptu.UIModel.RichText;
-    using ZachJohnson.Promptu.UserModel;
+    using SkinApi;
+    using Collections;
+    using UIModel.RichText;
+    using UserModel;
     using ZachJohnson.Promptu.UserModel.Collections;
 
     internal class ParameterHelpContext

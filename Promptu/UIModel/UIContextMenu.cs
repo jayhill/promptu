@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using ZachJohnson.Promptu.UIModel.Interfaces;
-using System.ComponentModel;
 
 namespace ZachJohnson.Promptu.UIModel
 {

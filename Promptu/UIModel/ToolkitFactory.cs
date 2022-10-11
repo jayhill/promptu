@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using ZachJohnson.Promptu.UIModel.Interfaces;
-using ZachJohnson.Promptu.SkinApi;
+﻿using System.Collections.Generic;
 using System.Windows.Forms;
 using ZachJohnson.Promptu.PluginModel;
+using ZachJohnson.Promptu.SkinApi;
+using ZachJohnson.Promptu.UIModel.Interfaces;
 
 namespace ZachJohnson.Promptu.UIModel
 {

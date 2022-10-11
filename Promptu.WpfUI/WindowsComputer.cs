@@ -15,11 +15,9 @@
 namespace ZachJohnson.Promptu.WpfUI
 {
     using System;
-    using System.Collections.Generic;
-    using System.Text;
-    using ZachJohnson.Promptu.UIModel;
-    using System.Windows.Forms;
     using System.Diagnostics;
+    using System.Windows.Forms;
+    using UIModel;
 
     internal class WindowsComputer : Computer
     {

@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using ZachJohnson.Promptu.UIModel.Interfaces;
-using ZachJohnson.Promptu.UserModel;
 
 namespace ZachJohnson.Promptu.UIModel.Presenters
 {

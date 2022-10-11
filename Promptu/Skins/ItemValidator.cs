@@ -12,9 +12,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+
 namespace ZachJohnson.Promptu.Skins
 {
-    using ZachJohnson.Promptu.SkinApi;
+    using SkinApi;
 
     internal class ItemValidator
     {

@@ -15,8 +15,8 @@
 namespace ZachJohnson.Promptu.Skins
 {
     using System.Collections.Generic;
-    using ZachJohnson.Promptu.SkinApi;
-    using ZachJohnson.Promptu.UserModel;
+    using SkinApi;
+    using UserModel;
 
     internal class FunctionAndCommandContextItemValidator : ItemValidator
     {

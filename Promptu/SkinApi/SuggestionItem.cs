@@ -15,7 +15,7 @@
 namespace ZachJohnson.Promptu.SkinApi
 {
     using System;
-    using ZachJohnson.Promptu.UI;
+    using UI;
 
     public class SuggestionItem : IHasImageIndex, IHasFallbackImageIndex
     {

@@ -1,0 +1,17 @@
+<Profile name="Dev">
+  <Sync every="30min" />
+  <Skin id="www.promptulauncher.com/defaultskin" />
+  <Hotkey modifierKeys="Alt" key="Q" />
+  <Defaults>
+    <Command saveParameterHistory="False" />
+  </Defaults>
+  <Prompt>
+    <WhileSuggesting>
+      <Spacebar accepts="False" eatCharacter="True" />
+    </WhileSuggesting>
+  </Prompt>
+  <FileAndFolderNavigation autoDetectVisibility="False" showHidden="False" showSystem="False" />
+  <TargetIcons show="True" autoFetchFavicons="True" />
+  <History maximumNumberOfEntries="150" />
+  <Lists selectedIndex="-1" />
+</Profile>

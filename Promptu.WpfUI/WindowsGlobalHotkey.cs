@@ -15,11 +15,9 @@
 namespace ZachJohnson.Promptu.WpfUI
 {
     using System;
-    using System.Collections.Generic;
     using System.Windows.Forms;
-    using System.Xml;
-    using ZachJohnson.Promptu.UIModel.Interfaces;
-    using ZachJohnson.Promptu.UserModel;
+    using UIModel.Interfaces;
+    using UserModel;
 
     internal class WindowsGlobalHotkey : IGlobalHotkey
     {

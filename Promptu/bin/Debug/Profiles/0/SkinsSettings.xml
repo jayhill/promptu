@@ -1,0 +1,24 @@
+<SkinsSettings>
+  <Skin id="www.promptulauncher.com/defaultskin">
+    <Prompt>
+      <Property id="FontFamily" value="Segoe UI" />
+      <Property id="FontSize" value="16" />
+      <Property id="BackgroundColor" value="#FF000000" />
+      <Property id="TextColor" value="#FFFFFFFF" />
+      <Property id="Width" value="340" />
+    </Prompt>
+    <SuggestionProvider>
+      <Property id="FontFamily" value="Segoe UI" />
+      <Property id="FontSize" value="12" />
+      <Property id="BackgroundColor" value="#FFFFFFFF" />
+      <Property id="TextColor" value="#FF000000" />
+      <Property id="SelectionBackgroundColor" value="#FF8ECEFF" />
+      <Property id="SelectionTextColor" value="#FF000000" />
+      <Property id="Size" value="319,198" />
+    </SuggestionProvider>
+    <Tooltips>
+      <Property id="FontFamily" value="Segoe UI" />
+      <Property id="FontSize" value="10" />
+    </Tooltips>
+  </Skin>
+</SkinsSettings>

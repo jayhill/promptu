@@ -15,10 +15,8 @@
 namespace ZachJohnson.Promptu.UIModel.Configuration
 {
     using System;
-    using System.Collections.Generic;
-    using System.Text;
-    using ZachJohnson.Promptu.UIModel.Interfaces;
     using System.Xml;
+    using Interfaces;
     using ZachJohnson.Promptu.Configuration;
 
     internal abstract class ToolkitSettings : SettingsBase

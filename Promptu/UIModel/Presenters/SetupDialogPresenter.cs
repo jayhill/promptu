@@ -1,19 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using System.ComponentModel;
+using System.Globalization;
+using System.IO;
+using System.Reflection;
+using System.Security;
+using System.Timers;
+using ZachJohnson.Promptu.FileFileSystem;
+using ZachJohnson.Promptu.PluginModel;
+using ZachJohnson.Promptu.PTK;
+using ZachJohnson.Promptu.SkinApi;
+using ZachJohnson.Promptu.Skins;
 using ZachJohnson.Promptu.UIModel.Interfaces;
 using ZachJohnson.Promptu.UserModel;
-using ZachJohnson.Promptu.Skins;
-using System.ComponentModel;
-using ZachJohnson.Promptu.PTK;
-using System.IO;
-using ZachJohnson.Promptu.SkinApi;
-using ZachJohnson.Promptu.PluginModel;
-using System.Security;
-using System.Reflection;
-using ZachJohnson.Promptu.FileFileSystem;
-using System.Globalization;
-using System.Timers;
 
 namespace ZachJohnson.Promptu.UIModel.Presenters
 {

@@ -16,13 +16,12 @@ namespace ZachJohnson.Promptu.UIModel.Presenters
 {
     using System;
     using System.Collections.Generic;
-    using System.Text;
-    using ZachJohnson.Promptu.UIModel.Interfaces;
-    using ZachJohnson.Promptu.UserModel;
-    using ZachJohnson.Promptu.UI;
-    using System.Windows.Forms;
     using System.ComponentModel;
     using System.Globalization;
+    using System.Windows.Forms;
+    using Interfaces;
+    using UI;
+    using UserModel;
 
     internal abstract class SetupPanelPresenter<T> : PresenterBase<ISetupPanel> where T : IHasId
     {

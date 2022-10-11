@@ -16,12 +16,11 @@ namespace ZachJohnson.Promptu.UIModel.Presenters
 {
     using System;
     using System.Collections.Generic;
-    using System.Text;
-    using ZachJohnson.Promptu.UserModel;
-    using ZachJohnson.Promptu.UIModel.Interfaces;
-    using ZachJohnson.Promptu.UI;
-    using ZachJohnson.Promptu.UserModel.Collections;
     using System.Globalization;
+    using System.Text;
+    using Interfaces;
+    using UserModel;
+    using ZachJohnson.Promptu.UserModel.Collections;
 
     internal class FunctionSetupPanelPresenter : SetupPanelPresenter<Function>
     {

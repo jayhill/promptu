@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using System.ComponentModel;
-using ZachJohnson.Promptu.UserModel.Differencing;
 
 namespace ZachJohnson.Promptu.UIModel.Interfaces
 {

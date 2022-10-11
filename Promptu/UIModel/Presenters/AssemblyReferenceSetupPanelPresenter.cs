@@ -16,11 +16,10 @@ namespace ZachJohnson.Promptu.UIModel.Presenters
 {
     using System;
     using System.Collections.Generic;
-    using System.Text;
-    using ZachJohnson.Promptu.UserModel;
-    using ZachJohnson.Promptu.UI;
-    using System.IO;
     using System.Globalization;
+    using System.IO;
+    using System.Text;
+    using UserModel;
 
     internal class AssemblyReferenceSetupPanelPresenter : SetupPanelPresenter<AssemblyReference>
     {

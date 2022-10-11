@@ -1,16 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
-using ZachJohnson.Promptu.UserModel;
-using System.Windows.Forms;
-using System.Drawing;
-using System.IO;
-using System.Drawing.Extensions;
-using ZachJohnson.Promptu.Collections;
-using ZachJohnson.Promptu.UserModel.Differencing;
-using ZachJohnson.Promptu.UserModel.Collections;
-using ZachJohnson.Promptu.UIModel.Presenters;
 using System.Globalization;
+using System.Text;
+using System.Windows.Forms;
+using ZachJohnson.Promptu.Collections;
+using ZachJohnson.Promptu.UIModel.Presenters;
+using ZachJohnson.Promptu.UserModel;
+using ZachJohnson.Promptu.UserModel.Collections;
 
 namespace ZachJohnson.Promptu.UIModel
 {

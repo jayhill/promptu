@@ -16,12 +16,11 @@ namespace ZachJohnson.Promptu.UIModel.Presenters
 {
     using System;
     using System.Collections.Generic;
-    using System.Text;
-    using ZachJohnson.Promptu.UIModel.Interfaces;
-    using ZachJohnson.Promptu.Collections;
-    using System.Windows.Forms;
     using System.IO;
-    using System.Drawing;
+    using System.Text;
+    using System.Windows.Forms;
+    using Collections;
+    using Interfaces;
 
     internal abstract class CollectionEditorPresenter<TCollection, TItem> : PresenterBase<ICollectionEditor>
         where TCollection : IHasCount, new()

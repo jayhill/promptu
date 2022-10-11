@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using ZachJohnson.Promptu.UserModel;
 
 namespace ZachJohnson.Promptu.UIModel
 {

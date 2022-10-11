@@ -14,11 +14,8 @@
 
 namespace ZachJohnson.Promptu.WpfUI
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Text;
     using System.Windows.Forms;
-    using ZachJohnson.Promptu.UIModel;
+    using UIModel;
 
     internal class WindowsKeyboardSnapshot : KeyboardSnapshot
     {
